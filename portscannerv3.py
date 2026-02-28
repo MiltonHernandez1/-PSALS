@@ -1,7 +1,8 @@
 import nmap
 
 nm = nmap.PortScanner()
-target = "172.17.224.1"
+# That's an internal IP, please double check
+target = "google.com"
 options = "-sV -sC"
 
 nm.scan(target, arguments=options)
