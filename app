@@ -1,0 +1,1 @@
+https://psals.lovable.app/
